@@ -1,3 +1,4 @@
+import RobustaCore
 import SwiftUI
 
 /// Janela de Ajustes (⌘,), em abas: Doses, Autorização e Sobre o Robusta.
@@ -164,6 +165,8 @@ struct SettingsPane: View {
             Text("Se o idioma do sistema não estiver listado, usa o padrão (inglês).")
                 .settingsFooter()
         }
+
+        AgentsSection(store: store)
     }
 
     @ViewBuilder private var authorization: some View {
@@ -217,7 +220,7 @@ struct SettingsPane: View {
                 Text("As doses agendadas continuam funcionando mesmo quando você fecha o app.")
                     .settingsFooter()
                 Spacer()
-                Button("Encerrar") { NSApplication.shared.terminate(nil) }
+                Button("Fechar app") { NSApplication.shared.terminate(nil) }
                     .keyboardShortcut("q")
             }
         }
@@ -260,11 +263,50 @@ private extension SettingsPane {
     }
 }
 
+/// Agentes de IA: o texto que o usuário cola no agente dele para criar, listar e remover doses
+/// pela linha de comando do Robusta. Só copia; nada é instalado nem liberado por aqui.
+private struct AgentsSection: View {
+    @Bindable var store: AppStore
+    @State private var copied = false
+
+    var body: some View {
+        if let instructions = store.agentInstructions() {
+            Section {
+                LabeledContent("Instruções para o agente") {
+                    Button {
+                        NSPasteboard.general.clearContents()
+                        NSPasteboard.general.setString(instructions, forType: .string)
+                        copied = true
+                        Task {
+                            try? await Task.sleep(for: .seconds(2))
+                            copied = false
+                        }
+                    } label: {
+                        if copied {
+                            Label("Copiado", systemImage: "checkmark")
+                        } else {
+                            Text("Copiar")
+                        }
+                    }
+                }
+            } header: {
+                Text("Agentes de IA")
+            } footer: {
+                Text("Cole no agente de IA que você usa (por exemplo, Claude Code ou Codex) para ele criar, listar e remover doses por você. Antes de remover, ele pergunta a você.")
+                    .settingsFooter()
+            }
+        }
+    }
+}
+
 /// Desinstalar (fase 7): explica, pergunta sobre a recorrência nativa e confirma em linha.
 private struct UninstallSection: View {
     @Bindable var store: AppStore
     @State private var confirming = false
     @State private var removeNative = false
+
+    /// Arquivos de instruções do Robusta instalados em agentes (pela linha de comando do app) que ainda existem.
+    private var skillCount: Int { SkillRegistry().installed().count }
 
     var body: some View {
         Section {
@@ -304,6 +346,10 @@ private struct UninstallSection: View {
                     Text("• apagar as suas agendas e bules cheios;")
                 }
                 Text("• desligar o reabastecimento diário e o \"Abrir no login\";")
+                if skillCount > 0 {
+                    Text("• apagar o arquivo de instruções do Robusta que foi instalado no seu agente de IA;")
+                }
+                Text("• apagar o histórico de atividade do Robusta;")
                 if store.hasPermission {
                     Text("• remover a autorização (o macOS pede a sua senha).")
                 }

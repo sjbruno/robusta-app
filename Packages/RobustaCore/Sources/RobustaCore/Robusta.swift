@@ -35,8 +35,9 @@ public enum Robusta {
     public static var rulesFile: URL { supportDirectory.appending(path: "rules.json") }
     public static var lockFile: URL { supportDirectory.appending(path: ".lock") }
 
-    public static var logFile: URL {
-        FileManager.default.homeDirectoryForCurrentUser
-            .appending(path: "Library/Logs/Robusta/robusta.log")
+    public static var logDirectory: URL {
+        FileManager.default.homeDirectoryForCurrentUser.appending(path: "Library/Logs/Robusta")
     }
+
+    public static var logFile: URL { logDirectory.appending(path: "robusta.log") }
 }

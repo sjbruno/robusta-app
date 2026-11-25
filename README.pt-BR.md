@@ -6,6 +6,10 @@
 
 Ele expande o limite do macOS para agendar o despertar do Mac: em vez de um único horário recorrente, quantos você quiser.
 
+**Autor:** [brunotemum.site](https://brunotemum.site)
+
+![Demonstração do Robusta: próximas doses, calendário do mês, aba Automações e criação de uma nova dose](Assets/robusta-demo.gif)
+
 > [!TIP]
 > ### ☕ Apoie o Robusta
 > O Robusta é gratuito. Se ele for útil para você, em vez de me pagar um café, faça uma doação para a **COIAB**, a Coordenação das Organizações Indígenas da Amazônia Brasileira.
@@ -36,12 +40,14 @@ Requisitos: macOS 27 e Mac com Apple silicon.
 - **Efeito da dose:** depois de cada dose, o Robusta mantém o Mac acordado por alguns minutos (10, por padrão), para as suas automações terem tempo de começar.
 - **Automações:** a aba Automações encontra as rotinas agendadas no Orca, no Codex e no Claude Desktop e mostra se cada uma tem uma dose na hora certa. Se não tiver, o botão **+ Dose** cria a dose que falta.
 - **Reabastecimento diário:** o Robusta mantém as doses dos próximos 14 dias agendadas e repõe a lista sozinho todo dia, mesmo com o app fechado.
+- **Agentes de IA:** em **Ajustes > Doses**, em **Agentes de IA**, **Copiar** dá um texto para você colar no agente de IA que usa (Claude Code, Codex…). Depois disso, ele cria, lista e remove doses por você, e pergunta antes de remover. A recorrência nativa só muda no app.
 
 ## Privacidade e segurança
 
 - O Robusta só usa a internet quando você clica em **Procurar atualizações**, para ver a última versão no GitHub. Nenhum dado seu é enviado.
 - Das automações, ele lê **só o nome e o horário**. Nunca lê o conteúdo, as instruções nem os resultados.
 - Ele só mostra as doses de outros apps e do sistema. Não apaga nenhuma delas.
+- O comando que o Robusta dá aos agentes de IA faz só o que o app faz, com a mesma autorização: doses de despertar e ligar, só as do próprio Robusta. Roda no seu Mac e não envia nada.
 - A autorização do passo 4 libera só o agendador de energia do macOS (`pmset`), só para as doses do próprio Robusta. Dá para remover em **Ajustes > Remover autorização…**.
 
 ## Atualizar
@@ -54,7 +60,9 @@ Em **Ajustes > Desinstalar o Robusta…**. O Robusta:
 1. cancela as doses que ele agendou e apaga as suas agendas e bules cheios;
 2. pergunta se você quer manter ou remover a recorrência nativa (ela fica guardada no macOS e funciona sem o Robusta);
 3. desliga o reabastecimento diário e o "Abrir no login";
-4. remove a autorização (pede a senha).
+4. apaga o arquivo de instruções que você instalou num agente de IA, se houver;
+5. apaga o histórico de atividade (log);
+6. remove a autorização (pede a senha).
 
 Depois, é só arrastar o Robusta da pasta Aplicativos para o Lixo. As doses de outros apps e do sistema não são tocadas.
 

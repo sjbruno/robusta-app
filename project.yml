@@ -12,7 +12,7 @@ settings:
     # Textos da interface no catálogo App/Localizable.xcstrings (chaves em português).
     SWIFT_EMIT_LOC_STRINGS: YES
     LOCALIZATION_PREFERS_STRING_CATALOGS: YES
-    MARKETING_VERSION: "0.1.0"
+    MARKETING_VERSION: "0.2.0"
     CURRENT_PROJECT_VERSION: "1"
     # Assinatura ad hoc (sem conta de desenvolvedor).
     # Só Apple silicon.
@@ -64,6 +64,12 @@ targets:
         embed: true
         copy:
           destination: executables
+      # Embute a CLI para agentes em Robusta.app/Contents/MacOS/robusta-cli (nome diferente do
+      # executável do app, "Robusta": o disco do macOS não distingue maiúsculas).
+      - target: robusta-cli
+        embed: true
+        copy:
+          destination: executables
   robusta-renew:
     type: tool
     platform: macOS
@@ -73,9 +79,19 @@ targets:
         PRODUCT_NAME: robusta-renew
     dependencies:
       - package: RobustaCore
+  robusta-cli:
+    type: tool
+    platform: macOS
+    sources: [CLI]
+    settings:
+      base:
+        PRODUCT_NAME: robusta-cli
+    dependencies:
+      - package: RobustaCore
 schemes:
   Robusta:
     build:
       targets:
         Robusta: all
         robusta-renew: all
+        robusta-cli: all

@@ -721,6 +721,22 @@
         }
       }
     },
+    "Agentes de IA": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI agents"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agentes de IA"
+          }
+        }
+      }
+    },
     "Agora não": {
       "localizations": {
         "en": {
@@ -1297,6 +1313,22 @@
         }
       }
     },
+    "Cole no agente de IA que você usa (por exemplo, Claude Code ou Codex) para ele criar, listar e remover doses por você. Antes de remover, ele pergunta a você.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste this into the AI agent you use (for example, Claude Code or Codex) so it can create, list and remove shots for you. It asks you before removing anything."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cole no agente de IA que você usa (por exemplo, Claude Code ou Codex) para ele criar, listar e remover doses por você. Antes de remover, ele pergunta a você."
+          }
+        }
+      }
+    },
     "Começar": {
       "localizations": {
         "en": {
@@ -1357,6 +1389,38 @@
           "stringUnit": {
             "state": "translated",
             "value": "Converter"
+          }
+        }
+      }
+    },
+    "Copiado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copied"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiado"
+          }
+        }
+      }
+    },
+    "Copiar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
           }
         }
       }
@@ -1777,22 +1841,6 @@
         }
       }
     },
-    "Encerrar": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exit"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Encerrar"
-          }
-        }
-      }
-    },
     "Escolha pelo menos um dia.": {
       "localizations": {
         "en": {
@@ -1937,6 +1985,22 @@
         }
       }
     },
+    "Fechar app": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit app"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar app"
+          }
+        }
+      }
+    },
     "Fins de semana": {
       "localizations": {
         "en": {
@@ -2029,6 +2093,22 @@
           "stringUnit": {
             "state": "translated",
             "value": "Indisponível"
+          }
+        }
+      }
+    },
+    "Instruções para o agente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instructions for your agent"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instruções para o agente"
           }
         }
       }
@@ -4605,6 +4685,38 @@
           "stringUnit": {
             "state": "translated",
             "value": "• apagar as suas agendas e bules cheios;"
+          }
+        }
+      }
+    },
+    "• apagar o arquivo de instruções do Robusta que foi instalado no seu agente de IA;": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• delete the Robusta instructions file that was installed in your AI agent;"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• apagar o arquivo de instruções do Robusta que foi instalado no seu agente de IA;"
+          }
+        }
+      }
+    },
+    "• apagar o histórico de atividade do Robusta;": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• delete Robusta's activity history;"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• apagar o histórico de atividade do Robusta;"
           }
         }
       }

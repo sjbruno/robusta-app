@@ -19,8 +19,10 @@ Writing to `pmset` needs root. Robusta never runs its own code as root: the one-
 | `…/Planning/` | `RenewalPlanner` (what to create and cancel; pure and idempotent) and `CoveragePlanner` (automation coverage). |
 | `…/Automations/` | Read-only readers for Orca, Codex and Claude Desktop schedules, cron and RRULE parsing. |
 | `…/System/` | `PowerScheduleReader` (IOKit), `ProcessRunner`, `PmsetRunner` (`sudo -n`), `RulesStore`, `FileLock`, `Log`, `RenewalService`, `AgendaEditor` (every user edit, in a safe order, plus uninstall), `AwakeAssertions`/`KeepAwake`. |
+| `…/CLI/` | The logic of `robusta-cli`: `CLIParser` (arguments), `CLIRunner` (commands, text/JSON output, exit codes), `CLIGuide` (instructions for agents and the `SKILL.md`) and `SkillRegistry`. Tested with `swift test`; the executable only calls them. |
 | `App/` | SwiftUI `MenuBarExtra` app. `Model/AppStore.swift` is the window state; `Design/` holds the tokens (`DS`), shared components and formatting; `Views/` the screens; `Prototype/` sample data and a simulated `pmset` (debug builds only). |
 | `Renewer/` | `robusta-renew` CLI, embedded in `Robusta.app/Contents/MacOS/`. Exit codes: 0 ok, 1 a command failed, 2 another renewal is running, 3 not authorized, 64 usage. |
+| `CLI/` | `robusta-cli`, the command line tool for AI agents, embedded next to `robusta-renew`. Not called `robusta`: the app's executable is `Robusta` and the macOS disk ignores case. |
 | `Install/` | `robusta.sudoers.template`, `authorize.sh`, `deauthorize.sh` (embedded in the app). |
 | `Support/LaunchAgents/` | The renewal agent plist, registered with `SMAppService.agent`. |
 | `Tools/` | Icon generators, string catalog sync, translations, `make-dmg.sh`. |
@@ -38,12 +40,31 @@ Writing to `pmset` needs root. Robusta never runs its own code as root: the one-
 8. Automations from other tools are read-only and limited to schedule fields (name, time, time zone, status). Never read, store or show prompts, project paths or outputs.
 9. The app creates and shows only wake/power-on (`wake`, `poweron`, `wakeorpoweron`). When it rewrites `pmset repeat`, it preserves the sleep/shutdown side; `repeat cancel` only when that side is empty.
 10. Network only on **Check for updates** (GitHub's latest release API, generic User-Agent, no user data).
+11. `robusta-cli` never touches `pmset repeat`: the native recurrence can only be changed in the app (the CLI exits 4). It never schedules sleep or shutdown, a removal needs `--yes`, and `guide --install-skill` writes only inside the user's home folder, to a folder the caller names (there is no default agent folder). A test proves that no CLI operation emits a `repeat` command.
 
 ### The sudoers file
 
 `Install/robusta.sudoers.template` uses POSIX extended regexes on the arguments (sudo 1.9.10+). Inside a regex only `#` is escaped; a backslash passes through unchanged, so a literal dot is `[.]`, never `\\.`. `SudoersTemplateTests` checks the template against every argv `PmsetCommand` can produce and against the forbidden forms. Keep it passing.
 
 `sudo -n -l` is **not** a valid test: for an admin it reports "allowed" for everything once any NOPASSWD rule exists. Test with `sudo -n` and a harmless command instead.
+
+## The command line tool (`robusta-cli`)
+
+It lets the user's AI agent (Claude Code, Codex…) list, add and remove Robusta's shots. It runs as the user and takes the same path as the app: `AgendaEditor` → `PmsetRunner` (`sudo -n /usr/bin/pmset …`) → the existing sudoers rules. It needs **no authorization of its own**; without the app's one-time authorization it exits 3.
+
+| Command | What |
+|---|---|
+| `list`, `status` | Read-only: schedules, full pots, single shots, native recurrence, limit, authorization. |
+| `add --time --days`, `add-once --at`, `add-pot --start --end --days` | Create a schedule, a single shot (owner `robusta`) or a full pot. |
+| `remove <id>`, `remove-once --at` | Remove by id (a unique prefix of 8+ characters works) or a single shot by date. |
+| `guide` | Instructions for agents. `--skill` prints the `SKILL.md`, `--agents-snippet` a short note, `--install-skill --dest <folder>` writes the skill. |
+
+- Output is text, or JSON with `--json`: `{"schema":1,"ok":true,"data":…,"warnings":[…]}` or `{"schema":1,"ok":false,"error":{"code","message","details"}}`. Messages are in English because the reader is an agent.
+- Exit codes: 0 ok, 1 failed, 2 busy, 3 not authorized, 4 app only (native recurrence), 5 confirmation needed (`--yes`), 64 usage, 65 invalid data, 66 not found.
+- Safety: removals need `--yes` (the agent must ask the user first), `--dry-run` changes nothing, duplicates are refused, and going over the 200-shot limit is a `limit_reached` warning, not an error. A full pot also returns `needs_app_running`: staying awake until the end is done by the app, on power.
+- The skill is agent-agnostic: no default folder, because each agent keeps its skills elsewhere. `guide --install-skill --dest <folder>` writes `<folder>/robusta/SKILL.md` only inside the user's home folder, shows the file and needs `--yes`, and never replaces a different file without `--force`. It records the folder in `skills.json`, so uninstalling the app can delete the file (only if it still carries the marker the CLI wrote). The skill follows the open Agent Skills format (`name`, `description`). No skill is kept in this repository.
+- The text of `--help`, `guide` and the skill lives in `CLIParser.helpText` and `CLIGuide`. Tests check that every command, exit code and example in them is real, so change them together with the code.
+- Adding a command: a case in `CLIParser`, a handler in `CLIRunner`, then the help text, the guide and tests (including one that proves it never emits `repeat`).
 
 ## `pmset` behavior worth knowing
 
@@ -83,5 +104,7 @@ sh Tools/make-dmg.sh                                # build/dist/Robusta-<versio
 | `pmset` owners | `robusta` (single shots), `robusta.agenda` (generated from schedules) |
 | Schedules | `~/Library/Application Support/Robusta/rules.json` |
 | Lock | `~/Library/Application Support/Robusta/.lock` |
+| CLI for agents | `/Applications/Robusta.app/Contents/MacOS/robusta-cli` |
+| Skills installed by the CLI | `~/Library/Application Support/Robusta/skills.json` (folders only) |
 | Log | `~/Library/Logs/Robusta/robusta.log` and unified log subsystem `io.github.sjbruno.robusta` |
 | sudoers | `/etc/sudoers.d/robusta` (root:wheel 0440) |

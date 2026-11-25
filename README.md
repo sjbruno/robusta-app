@@ -6,6 +6,10 @@
 
 It extends macOS's limit on scheduled wake times: instead of a single recurring time, as many as you want.
 
+**Author:** [brunotemum.site](https://brunotemum.site)
+
+![Robusta demo: upcoming shots, the monthly calendar, the Automations tab and creating a new shot](Assets/robusta-demo.gif)
+
 > [!TIP]
 > ### ☕ Support Robusta
 > Robusta is free. If it helps you, instead of buying me a coffee, make a donation to **COIAB**, the Coordination of Indigenous Organizations of the Brazilian Amazon.
@@ -36,12 +40,14 @@ Requirements: macOS 27 and a Mac with Apple silicon.
 - **Caffeine lasts:** after each shot, Robusta keeps your Mac awake for a few minutes (10 by default) so your automations have time to start.
 - **Automations:** the Automations tab finds the routines scheduled in Orca, Codex and Claude Desktop and shows whether each one has a shot at the right time. If not, the **+ Shot** button creates the missing one.
 - **Daily refill:** Robusta keeps the shots for the next 14 days scheduled and refills the list on its own every day, even with the app closed.
+- **AI agents:** in **Settings > Shots**, under **AI agents**, **Copy** gives you a text to paste into the AI agent you use (Claude Code, Codex…). From then on it can list, create and remove shots for you, and it asks you before removing anything. The native schedule can only be changed in the app.
 
 ## Privacy and security
 
 - Robusta only uses the internet when you click **Check for Updates**, to see the latest version on GitHub. None of your data is sent.
 - From automations, it reads **only the name and time**. It never reads their content, instructions or results.
 - It only shows shots from other apps and the system. It never deletes them.
+- The command Robusta gives to AI agents does only what the app does, with the same authorization: wake and power-on shots, only Robusta's own. It runs on your Mac and sends nothing anywhere.
 - The authorization in step 4 only allows the macOS energy scheduler (`pmset`), only for Robusta's own shots. You can remove it in **Settings > Remove authorization…**.
 
 ## Updating
@@ -54,7 +60,9 @@ In **Settings > Uninstall Robusta…**. Robusta:
 1. cancels the shots it scheduled and deletes your schedules and full pots;
 2. asks whether to keep or remove the native schedule (macOS keeps it on its own, and it works without Robusta);
 3. turns off the daily refill and "Open at Login";
-4. removes its authorization (asks for your password).
+4. deletes the instructions file you installed in an AI agent, if any;
+5. deletes its activity log;
+6. removes its authorization (asks for your password).
 
 Then drag Robusta from Applications to the Trash. Wakes from other apps and the system are left alone.
 

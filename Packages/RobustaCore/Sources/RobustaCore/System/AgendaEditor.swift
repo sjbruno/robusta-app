@@ -38,22 +38,26 @@ public struct AgendaEditor: Sendable {
     // MARK: Agendas
 
     /// Salva a agenda e renova na hora. Com `makeNative`, segue o fluxo do E3.
-    public func add(_ rule: AgendaRule, makeNative: Bool = false, now: Date = Date()) throws {
+    /// Devolve o relatório da renovação (a CLI avisa do limite e de falhas; o app ignora).
+    @discardableResult
+    public func add(_ rule: AgendaRule, makeNative: Bool = false, now: Date = Date()) throws -> RenewalReport {
         guard rule.isValid else { throw EditError.invalidRule }
         var plain = rule
         plain.isNative = false
-        try locked {
+        return try locked { () throws -> RenewalReport in
             var file = try store.load()
             file.rules.append(plain)
             try store.save(file)
-            _ = try renewal.renewHoldingLock(now: now)
+            let report = try renewal.renewHoldingLock(now: now)
             if makeNative { try makeNativeHoldingLock(rule.id, now: now) }
+            return report
         }
     }
 
     /// Apaga a agenda. Se for a nativa em vigor, tira só o lado de ligar do `repeat`.
-    public func remove(ruleID: UUID, now: Date = Date()) throws {
-        try locked {
+    @discardableResult
+    public func remove(ruleID: UUID, now: Date = Date()) throws -> RenewalReport {
+        try locked { () throws -> RenewalReport in
             var file = try store.load()
             guard let rule = file.rules.first(where: { $0.id == ruleID }) else { throw EditError.ruleNotFound }
             if rule.isNative {
@@ -63,31 +67,33 @@ public struct AgendaEditor: Sendable {
             }
             file.rules.removeAll { $0.id == ruleID }
             try store.save(file)
-            _ = try renewal.renewHoldingLock(now: now)
+            return try renewal.renewHoldingLock(now: now)
         }
     }
 
     // MARK: Bule cheio (E7)
 
     /// Salva o bule cheio e renova (cria a dose do início nos próximos 14 dias).
-    public func add(_ window: AwakeWindow, now: Date = Date()) throws {
+    @discardableResult
+    public func add(_ window: AwakeWindow, now: Date = Date()) throws -> RenewalReport {
         guard window.isValid else { throw EditError.invalidRule }
-        try locked {
+        return try locked { () throws -> RenewalReport in
             var file = try store.load()
             file.awakeWindows.append(window)
             try store.save(file)
-            _ = try renewal.renewHoldingLock(now: now)
+            return try renewal.renewHoldingLock(now: now)
         }
     }
 
     /// Apaga o bule cheio e renova (cancela as doses de início dele).
-    public func remove(windowID: UUID, now: Date = Date()) throws {
-        try locked {
+    @discardableResult
+    public func remove(windowID: UUID, now: Date = Date()) throws -> RenewalReport {
+        try locked { () throws -> RenewalReport in
             var file = try store.load()
             guard file.awakeWindows.contains(where: { $0.id == windowID }) else { throw EditError.ruleNotFound }
             file.awakeWindows.removeAll { $0.id == windowID }
             try store.save(file)
-            _ = try renewal.renewHoldingLock(now: now)
+            return try renewal.renewHoldingLock(now: now)
         }
     }
 
@@ -205,7 +211,7 @@ public struct AgendaEditor: Sendable {
 
     // MARK: Internos
 
-    private func locked(_ body: () throws -> Void) throws {
+    private func locked<T>(_ body: () throws -> T) throws -> T {
         try FileLock.withLock(at: lockURL, body)
     }
 

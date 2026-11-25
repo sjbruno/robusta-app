@@ -1,4 +1,5 @@
 import AppKit
+import CryptoKit
 import Foundation
 import Observation
 import RobustaCore
@@ -395,14 +396,43 @@ final class AppStore {
         }
     }
 
+    /// Chave em que fica a "impressão digital" do `robusta-renew` com o qual o agente foi registrado.
+    private static let renewerFingerprintKey = "renewalAgentFingerprint"
+
+    /// SHA-256 do `robusta-renew` embutido no app (nil se não estiver lá).
+    private static func renewerFingerprint() -> String? {
+        let url = Bundle.main.bundleURL.appending(path: "Contents/MacOS/robusta-renew")
+        guard let data = try? Data(contentsOf: url, options: .mappedIfSafe) else { return nil }
+        return SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined()
+    }
+
     /// Registra o `robusta-renew` como agente de login (sem senha). Só com o app em
     /// /Applications: a build de desenvolvimento não vira a renovação diária do Mac.
+    ///
+    /// O macOS prende o registro ao binário que existia na hora. Depois de uma atualização ou
+    /// reinstalação ele passa a matar o agente ao iniciar (`Launch Constraint Violation`) mesmo com o
+    /// status "ativo". Por isso, quando o `robusta-renew` muda, o registro é desfeito e refeito.
     func registerRenewalAgent() {
         guard scenario == .live, uninstallState == .idle, Bundle.main.bundlePath.hasPrefix("/Applications/") else { return }
         let agent = Self.renewalAgent
-        guard agent.status != .enabled else { return }
+        let defaults = UserDefaults.standard
+        let fingerprint = Self.renewerFingerprint()
+        let changed = fingerprint != nil && defaults.string(forKey: Self.renewerFingerprintKey) != fingerprint
+        guard agent.status != .enabled || changed else { return }
+        let wasRegistered = agent.status != .notRegistered
         do {
+            if changed, wasRegistered {
+                try? agent.unregister()
+            }
             try agent.register()
+            // Testado no macOS 27: o primeiro registro de um app recém-instalado deixa o agente
+            // quebrado (o launchd o mata ao iniciar). Desregistrar e registrar de novo conserta.
+            if !wasRegistered {
+                try? agent.unregister()
+                try agent.register()
+            }
+            if let fingerprint { defaults.set(fingerprint, forKey: Self.renewerFingerprintKey) }
+            Log(category: "app").info("renovação diária: agente registrado\(changed ? " de novo (o robusta-renew mudou)" : "")")
         } catch {
             actionError = String(localized: "Não consegui ativar a renovação diária (\(error.localizedDescription)).")
         }
@@ -410,6 +440,19 @@ final class AppStore {
             actionError = String(localized: "Para a renovação diária, aprove o Robusta em Ajustes do Sistema > Geral > Itens de Início.")
             SMAppService.openSystemSettingsLoginItems()
         }
+    }
+
+    // MARK: Agentes de IA
+
+    /// Caminho da `robusta-cli` dentro do app (nil se não estiver lá).
+    var agentCommandPath: String? {
+        let path = Bundle.main.bundleURL.appending(path: "Contents/MacOS/robusta-cli").path
+        return FileManager.default.isExecutableFile(atPath: path) ? path : nil
+    }
+
+    /// O texto que o usuário cola no agente dele: aponta para a CLI e para o `guide`.
+    func agentInstructions() -> String? {
+        agentCommandPath.map { CLIGuide.agentsSnippet(command: $0) }
     }
 
     // MARK: Desinstalar
@@ -474,12 +517,16 @@ final class AppStore {
             fullPotKeepAwake.release()
             keepAwakeUntil = nil
             fullPotUntil = nil
+            // Antes de apagar o suporte: o registro das skills mora nele. Só tira o que a CLI gravou.
+            let skills = SkillRegistry().removeInstalled().count
             try? FileManager.default.removeItem(at: Robusta.supportDirectory)
             UserDefaults.standard.removePersistentDomain(forName: Robusta.bundleID)
-            Log(category: "app").info("desinstalado pelo usuário")
+            Log(category: "app").info("desinstalado pelo usuário (skills de agentes removidas: \(skills))")
 
             let prompt = String(localized: "Para remover a autorização do Robusta, digite a sua senha.")
             let removed = permission ? runPrivileged(script: "deauthorize.sh", arguments: [], prompt: prompt) : true
+            // Por último: qualquer registro depois disso recriaria a pasta.
+            try? FileManager.default.removeItem(at: Robusta.logDirectory)
             uninstallState = .done(UninstallResult(shotsLeft: shotsLeft, authorizationKept: !removed))
             isBusy = false
         }
