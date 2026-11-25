@@ -66,6 +66,13 @@ It lets the user's AI agent (Claude Code, Codex…) list, add and remove Robusta
 - The text of `--help`, `guide` and the skill lives in `CLIParser.helpText` and `CLIGuide`. Tests check that every command, exit code and example in them is real, so change them together with the code.
 - Adding a command: a case in `CLIParser`, a handler in `CLIRunner`, then the help text, the guide and tests (including one that proves it never emits `repeat`).
 
+## The daily refill agent (`robusta-renew` through launchd)
+
+- The app registers `robusta-renew` with `SMAppService.agent` (only when it runs from `/Applications`). It runs at login and at 03:17.
+- **macOS 27 pins the registration to the binary that existed at that moment.** On a fresh install the first `register()` leaves the agent broken: launchd kills it at start (`Launch Constraint Violation`, `OS_REASON_CODESIGNING`, `job state = spawn failed`) while `SMAppService.status` still says "enabled". `unregister()` followed by `register()` fixes it.
+- So `AppStore.registerRenewalAgent` registers in two steps the first time, and registers again whenever the SHA-256 of the embedded `robusta-renew` changes (an update). It stores that fingerprint in the app's preferences.
+- To check it: `launchctl kickstart -k gui/$(id -u)/io.github.sjbruno.robusta.renew`, then `launchctl print` should show `last exit code = 0`, and no new `robusta-renew-*.ips` should appear in `~/Library/Logs/DiagnosticReports`. Repeat this after a clean install before every release.
+
 ## `pmset` behavior worth knowing
 
 Verified on macOS 27 and in Apple's open-source `PowerManagement` (`pmset.m`, `AutoWakeScheduler.c`):
@@ -91,6 +98,7 @@ sh Tools/make-dmg.sh                                # build/dist/Robusta-<versio
 - Every change in `Parsing/`, `Commands/` or `Planning/` comes with a test. Parser fixtures are real `pmset -g sched` outputs (synthetic ones have `synthetic` in the name) and may contain only system and Robusta owners.
 - **Reviewing the UI** (debug build): `Robusta -snapshot <folder>` writes PNGs of every screen in light and dark mode using sample data; `Robusta -live-snapshot <folder>` opens the real menu bar window for layout bugs; `Robusta -settings-snapshot <folder>` opens the real Settings window and saves each tab, title bar and tab icons included. Add `-AppleLanguages '(en)'` to check English.
 - **Text and languages**: the interface is in Brazilian Portuguese and English. `App/Localizable.xcstrings` uses the Portuguese text as keys. After changing UI text: build, run `sh Tools/sync-strings.sh`, add the English to `Tools/translations-en.json` and run `python3 Tools/apply-translations.py`. Use `String(localized:)` for text built in code, a whole sentence per key, and a separate key for the singular. Times are always 24 h.
+- **String catalog pitfall**: `Tools/sync-strings.sh` reads the `.stringsdata` of every configuration in `build/dd`, so an old Debug build can bring back keys you already removed. Delete the stale configuration folder under `build/dd/Build/Intermediates.noindex/Robusta.build/` and sync again.
 - **Icons**: `swift Tools/make-icon.swift` (app and menu bar) and `swift Tools/make-fullpot-icon.swift` (full pot). Edit the scripts, never the PNGs.
 - **Design**: native controls on Apple's HIG with the app's own tokens (`App/Design/Tokens.swift`), no third-party UI library. Every icon-only button has `.help` and an accessibility label; the whole app works from the keyboard.
 - **Version-specific code**: the minimum version lives only in `project.yml` and `Package.swift`; no macOS 27-only API is used today; mark any you add with `// macOS 27+`. The theoretical floor is macOS 15.
