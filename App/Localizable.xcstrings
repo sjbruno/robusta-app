@@ -1,0 +1,4662 @@
+{
+  "sourceLanguage": "pt-BR",
+  "strings": {
+    "\"Acordar ou ligar\" também funciona com o Mac desligado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\"Wake or power on\" also works with the Mac shut down."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\"Acordar ou ligar\" também funciona com o Mac desligado."
+          }
+        }
+      }
+    },
+    "%@ a %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ to %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ a %@"
+          }
+        }
+      }
+    },
+    "%@ · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@"
+          }
+        }
+      }
+    },
+    "%@ · próxima %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · next %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · próxima %@"
+          }
+        }
+      }
+    },
+    "%@ às %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ at %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ às %@"
+          }
+        }
+      }
+    },
+    "%@, %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %@"
+          }
+        }
+      }
+    },
+    "%@, %lld doses": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %lld shots"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %lld doses"
+          }
+        }
+      }
+    },
+    "%@, suas agendas servem %lld doses. Na tomada, um bule cheio mantém o Mac acordado nesse período, em vez de acordá-lo tantas vezes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, your schedules pour %lld shots. On power, a full pot keeps your Mac awake through that period instead of waking it that many times."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, suas agendas servem %lld doses. Na tomada, um bule cheio mantém o Mac acordado nesse período, em vez de acordá-lo tantas vezes."
+          }
+        }
+      }
+    },
+    "%@: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: %@"
+          }
+        }
+      }
+    },
+    "%@–%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@–%@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@–%@"
+          }
+        }
+      }
+    },
+    "%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        }
+      }
+    },
+    "%lld agendas do Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Robusta schedules"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld agendas do Robusta"
+          }
+        }
+      }
+    },
+    "%lld de %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of %lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld de %lld"
+          }
+        }
+      }
+    },
+    "%lld de %lld com dose programada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of %lld with a shot scheduled"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld de %lld com dose programada"
+          }
+        }
+      }
+    },
+    "%lld de %lld doses agendadas · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of %lld shots scheduled · %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld de %lld doses agendadas · %@"
+          }
+        }
+      }
+    },
+    "%lld doses do sistema e de outros apps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld shots from the system and other apps"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld doses do sistema e de outros apps"
+          }
+        }
+      }
+    },
+    "%lld min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        }
+      }
+    },
+    "%lld na nuvem": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld in the cloud"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld na nuvem"
+          }
+        }
+      }
+    },
+    "%lld nativo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld native"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld nativo"
+          }
+        }
+      }
+    },
+    "%lld por evento": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld on event"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld por evento"
+          }
+        }
+      }
+    },
+    "%lld vezes por dia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld times a day"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld vezes por dia"
+          }
+        }
+      }
+    },
+    "%lld/%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/%lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/%lld"
+          }
+        }
+      }
+    },
+    "%lldh": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldh"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldh"
+          }
+        }
+      }
+    },
+    "**Bule cheio:** mantém o Mac acordado numa faixa de horário, na tomada.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Full pot:** keeps your Mac awake through a time window, on power."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Bule cheio:** mantém o Mac acordado numa faixa de horário, na tomada."
+          }
+        }
+      }
+    },
+    "**Nativo:** a recorrência do macOS. Funciona sem o Robusta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Native:** the macOS schedule. Works without Robusta."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Nativo:** a recorrência do macOS. Funciona sem o Robusta."
+          }
+        }
+      }
+    },
+    "**Robusta:** agenda do app, renovada todo dia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Robusta:** an app schedule, renewed every day."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Robusta:** agenda do app, renovada todo dia."
+          }
+        }
+      }
+    },
+    "**Único:** acontece uma vez e some da lista.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Single:** happens once and leaves the list."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Único:** acontece uma vez e some da lista."
+          }
+        }
+      }
+    },
+    "+ Dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Dose"
+          }
+        }
+      }
+    },
+    "1 recorrência nativa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 native schedule"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 recorrência nativa"
+          }
+        }
+      }
+    },
+    "A autorização continua ativa.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your authorization is still active."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A autorização continua ativa."
+          }
+        }
+      }
+    },
+    "A autorização não foi concluída (%@).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authorization didn't complete (%@)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A autorização não foi concluída (%@)."
+          }
+        }
+      }
+    },
+    "A cada %lld dias": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every %lld days"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A cada %lld dias"
+          }
+        }
+      }
+    },
+    "A cada %lld h": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every %lld h"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A cada %lld h"
+          }
+        }
+      }
+    },
+    "A cada %lld min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every %lld min"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A cada %lld min"
+          }
+        }
+      }
+    },
+    "A cada %lld semanas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every %lld weeks"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A cada %lld semanas"
+          }
+        }
+      }
+    },
+    "A recorrência nativa atual (%@ às %@) vira agenda do Robusta, sem deixar de acontecer.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current native schedule (%@ at %@) becomes a Robusta schedule and keeps running."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A recorrência nativa atual (%@ às %@) vira agenda do Robusta, sem deixar de acontecer."
+          }
+        }
+      }
+    },
+    "A recorrência nativa atual (%@) será convertida em agenda do Robusta, sem deixar de acontecer. Continuar?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current native schedule (%@) will become a Robusta schedule and keep running. Continue?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A recorrência nativa atual (%@) será convertida em agenda do Robusta, sem deixar de acontecer. Continuar?"
+          }
+        }
+      }
+    },
+    "Aba": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aba"
+          }
+        }
+      }
+    },
+    "Abre o Robusta na barra de menus quando você entra no Mac.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens Robusta in the menu bar when you log in."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre o Robusta na barra de menus quando você entra no Mac."
+          }
+        }
+      }
+    },
+    "Abrir no login": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open at Login"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir no login"
+          }
+        }
+      }
+    },
+    "Acontece uma vez só. Depois do horário, some da lista.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Happens only once. After the time, it leaves the list."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acontece uma vez só. Depois do horário, some da lista."
+          }
+        }
+      }
+    },
+    "Acordar ou ligar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wake or power on"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acordar ou ligar"
+          }
+        }
+      }
+    },
+    "Agenda do Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta schedule"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agenda do Robusta"
+          }
+        }
+      }
+    },
+    "Agenda inválida: escolha um horário e pelo menos um dia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid schedule: pick a time and at least one day."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agenda inválida: escolha um horário e pelo menos um dia."
+          }
+        }
+      }
+    },
+    "Agendas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schedules"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agendas"
+          }
+        }
+      }
+    },
+    "Agora não": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agora não"
+          }
+        }
+      }
+    },
+    "Aguardando aprovação em Itens de Início": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for approval in Login Items"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aguardando aprovação em Itens de Início"
+          }
+        }
+      }
+    },
+    "Ajuda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Help"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajuda"
+          }
+        }
+      }
+    },
+    "Ajustes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        }
+      }
+    },
+    "Ajustes (⌘,)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings (⌘,)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes (⌘,)"
+          }
+        }
+      }
+    },
+    "Algumas doses não puderam ser canceladas. Elas continuam acontecendo por até 14 dias.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some shots couldn't be canceled. They'll keep happening for up to 14 days."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algumas doses não puderam ser canceladas. Elas continuam acontecendo por até 14 dias."
+          }
+        }
+      }
+    },
+    "Apagar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar"
+          }
+        }
+      }
+    },
+    "Apagar agenda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete schedule"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar agenda"
+          }
+        }
+      }
+    },
+    "Apagar agenda das %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete the %@ schedule"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar agenda das %@"
+          }
+        }
+      }
+    },
+    "Apagar bule cheio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete full pot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar bule cheio"
+          }
+        }
+      }
+    },
+    "Apagar esta agenda cancela as próximas doses dela.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deleting this schedule cancels its upcoming shots."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar esta agenda cancela as próximas doses dela."
+          }
+        }
+      }
+    },
+    "Apagar esta agenda também remove a recorrência nativa do macOS.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deleting this schedule also removes the macOS native schedule."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar esta agenda também remove a recorrência nativa do macOS."
+          }
+        }
+      }
+    },
+    "Apagar o bule cheio cancela as doses de início dele, e o Mac volta a dormir normalmente nesse horário.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deleting the full pot cancels its start shots, and your Mac goes back to sleeping normally at that time."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar o bule cheio cancela as doses de início dele, e o Mac volta a dormir normalmente nesse horário."
+          }
+        }
+      }
+    },
+    "Aplicando…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Applying…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplicando…"
+          }
+        }
+      }
+    },
+    "As doses agendadas continuam funcionando mesmo quando você fecha o app.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scheduled shots keep working even when you close the app."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As doses agendadas continuam funcionando mesmo quando você fecha o app."
+          }
+        }
+      }
+    },
+    "Ativa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativa"
+          }
+        }
+      }
+    },
+    "Ativo: no login e todo dia às 03:17": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On: at login and daily at 03:17"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativo: no login e todo dia às 03:17"
+          }
+        }
+      }
+    },
+    "Atualizar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atualizar"
+          }
+        }
+      }
+    },
+    "Atualizar (⌘R): relê as doses, as agendas, a autorização e as automações. Não muda nada.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh (⌘R): rereads shots, schedules, authorization and automations. Changes nothing."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atualizar (⌘R): relê as doses, as agendas, a autorização e as automações. Não muda nada."
+          }
+        }
+      }
+    },
+    "Até": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Até"
+          }
+        }
+      }
+    },
+    "Automações": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automations"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automações"
+          }
+        }
+      }
+    },
+    "Autorizar…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authorize…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorizar…"
+          }
+        }
+      }
+    },
+    "Autorização": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authorization"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorização"
+          }
+        }
+      }
+    },
+    "Autorizações necessárias": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Required permissions"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorizações necessárias"
+          }
+        }
+      }
+    },
+    "Autorize o Robusta a agendar doses (só o pmset).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authorize Robusta to schedule shots (pmset only)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorize o Robusta a agendar doses (só o pmset)."
+          }
+        }
+      }
+    },
+    "Bule cheio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full pot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bule cheio"
+          }
+        }
+      }
+    },
+    "Bule cheio aberto, mas o Mac está na bateria: ele dorme normalmente.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A full pot is open, but your Mac is on battery: it sleeps as usual."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bule cheio aberto, mas o Mac está na bateria: ele dorme normalmente."
+          }
+        }
+      }
+    },
+    "Bule cheio · na tomada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full pot · on power"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bule cheio · na tomada"
+          }
+        }
+      }
+    },
+    "Bule cheio: %@–%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full pot: %@–%@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bule cheio: %@–%@"
+          }
+        }
+      }
+    },
+    "Bules cheios (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full pots (%lld)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bules cheios (%lld)"
+          }
+        }
+      }
+    },
+    "Cada dose é um horário em que o Mac acorda ou liga.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Each shot is a time when your Mac wakes or powers on."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada dose é um horário em que o Mac acorda ou liga."
+          }
+        }
+      }
+    },
+    "Cafeinando o Mac agora": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caffeinating your Mac"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cafeinando o Mac agora"
+          }
+        }
+      }
+    },
+    "Cancelar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "Cancelar a dose única de %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel the single shot on %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar a dose única de %@"
+          }
+        }
+      }
+    },
+    "Cancelar a dose única de %@?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel the single shot on %@?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar a dose única de %@?"
+          }
+        }
+      }
+    },
+    "Cancelar dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar dose"
+          }
+        }
+      }
+    },
+    "Começar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get started"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Começar"
+          }
+        }
+      }
+    },
+    "Como funcionam os agendamentos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How scheduling works"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Como funcionam os agendamentos"
+          }
+        }
+      }
+    },
+    "Continuar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuar"
+          }
+        }
+      }
+    },
+    "Converter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Convert"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Converter"
+          }
+        }
+      }
+    },
+    "Criada fora do Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Created outside Robusta"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Criada fora do Robusta"
+          }
+        }
+      }
+    },
+    "Dados": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dados"
+          }
+        }
+      }
+    },
+    "Das": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das"
+          }
+        }
+      }
+    },
+    "Depois de cada dose do Robusta ou da recorrência nativa, o app mantém o Mac acordado por esse tempo, para as suas automações terem tempo de começar. Sem isso, o Mac volta a dormir quando a tela apaga: neste Mac, em cerca de %lld min.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After each Robusta or native shot, the app keeps your Mac awake for this long so your automations have time to start. Without it, the Mac goes back to sleep when the display turns off: on this Mac, after about %lld min."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Depois de cada dose do Robusta ou da recorrência nativa, o app mantém o Mac acordado por esse tempo, para as suas automações terem tempo de começar. Sem isso, o Mac volta a dormir quando a tela apaga: neste Mac, em cerca de %lld min."
+          }
+        }
+      }
+    },
+    "Desinstalando…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uninstalling…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desinstalando…"
+          }
+        }
+      }
+    },
+    "Desinstalar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uninstall"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desinstalar"
+          }
+        }
+      }
+    },
+    "Desinstalar o Robusta…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uninstall Robusta…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desinstalar o Robusta…"
+          }
+        }
+      }
+    },
+    "Desligado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desligado"
+          }
+        }
+      }
+    },
+    "Dias": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Days"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dias"
+          }
+        }
+      }
+    },
+    "Dias úteis": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weekdays"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dias úteis"
+          }
+        }
+      }
+    },
+    "Dispara por evento": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runs on event"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispara por evento"
+          }
+        }
+      }
+    },
+    "Dispara por evento, não por horário. Uma dose não garante a execução: o Mac precisa estar acordado quando o evento chegar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runs on an event, not at a time. A shot can't guarantee it runs: the Mac must be awake when the event arrives."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispara por evento, não por horário. Uma dose não garante a execução: o Mac precisa estar acordado quando o evento chegar."
+          }
+        }
+      }
+    },
+    "Dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose"
+          }
+        }
+      }
+    },
+    "Dose de outro app ou do sistema. O Robusta só mostra; não cancela.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A shot from another app or the system. Robusta only shows it; it doesn't cancel it."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose de outro app ou do sistema. O Robusta só mostra; não cancela."
+          }
+        }
+      }
+    },
+    "Dose programada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shot scheduled"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose programada"
+          }
+        }
+      }
+    },
+    "Dose programada: %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shot scheduled: %@."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose programada: %@."
+          }
+        }
+      }
+    },
+    "Dose às %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shot at %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose às %@"
+          }
+        }
+      }
+    },
+    "Dose às %@, %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shot at %@, %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose às %@, %@"
+          }
+        }
+      }
+    },
+    "Dose única": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Single shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose única"
+          }
+        }
+      }
+    },
+    "Dose única não pode ser recorrência nativa.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A single shot can't be a native schedule."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose única não pode ser recorrência nativa."
+          }
+        }
+      }
+    },
+    "Doses": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shots"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doses"
+          }
+        }
+      }
+    },
+    "Dá para remover a qualquer momento em Ajustes (⌘,).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can remove it anytime in Settings (⌘,)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dá para remover a qualquer momento em Ajustes (⌘,)."
+          }
+        }
+      }
+    },
+    "Efeito da dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caffeine lasts"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Efeito da dose"
+          }
+        }
+      }
+    },
+    "Ela fica guardada no próprio macOS e continua funcionando sem o Robusta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS keeps it on its own, and it keeps working without Robusta."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ela fica guardada no próprio macOS e continua funcionando sem o Robusta."
+          }
+        }
+      }
+    },
+    "Ela vale mesmo com o Robusta fechado ou desinstalado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It works even with Robusta closed or uninstalled."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ela vale mesmo com o Robusta fechado ou desinstalado."
+          }
+        }
+      }
+    },
+    "Em seguida, o macOS pede a sua senha ou o Touch ID. É o aviso padrão para qualquer ajuste de administrador.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next, macOS asks for your password or Touch ID. It's the standard prompt for any administrator change."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Em seguida, o macOS pede a sua senha ou o Touch ID. É o aviso padrão para qualquer ajuste de administrador."
+          }
+        }
+      }
+    },
+    "Encerrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encerrar"
+          }
+        }
+      }
+    },
+    "Escolha pelo menos um dia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pick at least one day."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha pelo menos um dia."
+          }
+        }
+      }
+    },
+    "Escolha um horário daqui a pelo menos 2 minutos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pick a time at least 2 minutes from now."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha um horário daqui a pelo menos 2 minutos."
+          }
+        }
+      }
+    },
+    "Essa agenda não existe mais. A lista foi atualizada.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That schedule no longer exists. The list was refreshed."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Essa agenda não existe mais. A lista foi atualizada."
+          }
+        }
+      }
+    },
+    "Esta dose passa a ser a recorrência nativa do macOS e continua valendo mesmo sem o Robusta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This shot becomes the macOS native schedule and keeps working even without Robusta."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta dose passa a ser a recorrência nativa do macOS e continua valendo mesmo sem o Robusta."
+          }
+        }
+      }
+    },
+    "Esta dose é de %@, não do Robusta. Cancelar pode atrapalhar quem o criou.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This shot belongs to %@, not Robusta. Canceling it may break whatever created it."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta dose é de %@, não do Robusta. Cancelar pode atrapalhar quem o criou."
+          }
+        }
+      }
+    },
+    "Esta recorrência nativa não foi criada pelo Robusta. Apagar pode atrapalhar quem a criou. Apagar mesmo assim?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This native schedule wasn't created by Robusta. Deleting it may break whatever created it. Delete anyway?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta recorrência nativa não foi criada pelo Robusta. Apagar pode atrapalhar quem a criou. Apagar mesmo assim?"
+          }
+        }
+      }
+    },
+    "Estado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado"
+          }
+        }
+      }
+    },
+    "Exibir todos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show all"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exibir todos"
+          }
+        }
+      }
+    },
+    "Expandir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expand"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expandir"
+          }
+        }
+      }
+    },
+    "Fins de semana": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weekends"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fins de semana"
+          }
+        }
+      }
+    },
+    "Gatilho: %@. %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trigger: %@. %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gatilho: %@. %@"
+          }
+        }
+      }
+    },
+    "Horário": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horário"
+          }
+        }
+      }
+    },
+    "Horário não informado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time not set"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horário não informado"
+          }
+        }
+      }
+    },
+    "Idioma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        }
+      }
+    },
+    "Indisponível": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unavailable"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indisponível"
+          }
+        }
+      }
+    },
+    "Início do bule cheio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full pot starts"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Início do bule cheio"
+          }
+        }
+      }
+    },
+    "Início do bule cheio: %@, %@–%@. Apagar o bule cheio cancela as doses de início dele.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start of the full pot: %@, %@–%@. Deleting the full pot cancels its start shots."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Início do bule cheio: %@, %@–%@. Apagar o bule cheio cancela as doses de início dele."
+          }
+        }
+      }
+    },
+    "Lendo as automações…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading automations…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lendo as automações…"
+          }
+        }
+      }
+    },
+    "Lendo as doses…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading shots…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lendo as doses…"
+          }
+        }
+      }
+    },
+    "Liga depois da autorização": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turns on after authorization"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liga depois da autorização"
+          }
+        }
+      }
+    },
+    "Limite atingido: %lld de %lld doses agendadas · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limit reached: %lld of %lld shots scheduled · %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limite atingido: %lld de %lld doses agendadas · %@"
+          }
+        }
+      }
+    },
+    "Maior incidência": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Most frequent"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maior incidência"
+          }
+        }
+      }
+    },
+    "Maior incidência: %lld por semana. Boa candidata a recorrência nativa.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Most frequent: %lld a week. A good fit for the native schedule."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maior incidência: %lld por semana. Boa candidata a recorrência nativa."
+          }
+        }
+      }
+    },
+    "Manter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manter"
+          }
+        }
+      }
+    },
+    "Manter assim": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep as is"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manter assim"
+          }
+        }
+      }
+    },
+    "Manter o Mac acordado depois de cada dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep your Mac awake after each shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manter o Mac acordado depois de cada dose"
+          }
+        }
+      }
+    },
+    "Modo de exemplo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sample mode"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo de exemplo"
+          }
+        }
+      }
+    },
+    "Modo de exemplo: a autorização só existe com os dados reais.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sample mode: authorization only exists with real data."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo de exemplo: a autorização só existe com os dados reais."
+          }
+        }
+      }
+    },
+    "Mostra também as doses do sistema e de outros apps.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Also shows shots from the system and other apps."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra também as doses do sistema e de outros apps."
+          }
+        }
+      }
+    },
+    "Mostrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar"
+          }
+        }
+      }
+    },
+    "Mostrar mais (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show more (%lld)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar mais (%lld)"
+          }
+        }
+      }
+    },
+    "Mostrar menos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show less"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar menos"
+          }
+        }
+      }
+    },
+    "Mostrar na pasta Aplicativos e encerrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show in Applications and quit"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar na pasta Aplicativos e encerrar"
+          }
+        }
+      }
+    },
+    "Média de doses por dia nos próximos %lld dias. O Robusta mantém no máximo %lld doses agendadas de uma vez; a recorrência nativa não entra nessa conta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Average shots per day over the next %lld days. Robusta keeps at most %lld shots scheduled at once; the native schedule doesn't count."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Média de doses por dia nos próximos %lld dias. O Robusta mantém no máximo %lld doses agendadas de uma vez; a recorrência nativa não entra nessa conta."
+          }
+        }
+      }
+    },
+    "Na nuvem": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In the cloud"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na nuvem"
+          }
+        }
+      }
+    },
+    "Na nuvem (/schedule)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In the cloud (/schedule)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na nuvem (/schedule)"
+          }
+        }
+      }
+    },
+    "Nada agendado nos próximos %lld dias.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing scheduled in the next %lld days."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada agendado nos próximos %lld dias."
+          }
+        }
+      }
+    },
+    "Nada foi alterado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing was changed."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada foi alterado."
+          }
+        }
+      }
+    },
+    "Nativo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nativo"
+          }
+        }
+      }
+    },
+    "Nenhuma agenda com esse filtro.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No schedules match this filter."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma agenda com esse filtro."
+          }
+        }
+      }
+    },
+    "Nenhuma agenda do Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Robusta schedules"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma agenda do Robusta"
+          }
+        }
+      }
+    },
+    "Nenhuma agenda. Crie uma para o Mac acordar sempre no mesmo horário.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No schedules. Create one so your Mac always wakes at the same time."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma agenda. Crie uma para o Mac acordar sempre no mesmo horário."
+          }
+        }
+      }
+    },
+    "Nenhuma automação local encontrada no Orca, no Codex ou no Claude Desktop.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No local automations found in Orca, Codex, or Claude Desktop."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma automação local encontrada no Orca, no Codex ou no Claude Desktop."
+          }
+        }
+      }
+    },
+    "Nenhuma dose agendada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No shots scheduled"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma dose agendada"
+          }
+        }
+      }
+    },
+    "Nenhuma dose cobre a próxima execução.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No shot covers the next run."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma dose cobre a próxima execução."
+          }
+        }
+      }
+    },
+    "Nenhuma dose deste tipo nos próximos %lld dias.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No shots of this kind in the next %lld days."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma dose deste tipo nos próximos %lld dias."
+          }
+        }
+      }
+    },
+    "Nenhuma dose neste dia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No shots on this day."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma dose neste dia."
+          }
+        }
+      }
+    },
+    "Nenhuma recorrência nativa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No native schedule"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma recorrência nativa"
+          }
+        }
+      }
+    },
+    "Nos servidores da OpenAI": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On OpenAI's servers"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nos servidores da OpenAI"
+          }
+        }
+      }
+    },
+    "Nova dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nova dose"
+          }
+        }
+      }
+    },
+    "Nunca apaga doses de outros apps nem muda outros ajustes de energia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Never deletes other apps' shots or changes other energy settings."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nunca apaga doses de outros apps nem muda outros ajustes de energia."
+          }
+        }
+      }
+    },
+    "Não autorizado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not authorized"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não autorizado"
+          }
+        }
+      }
+    },
+    "Não consegui ativar a renovação diária (%@).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't turn on the daily renewal (%@)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não consegui ativar a renovação diária (%@)."
+          }
+        }
+      }
+    },
+    "Não consegui ler as agendas do Robusta (%@). Nada foi alterado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't read Robusta's schedules (%@). Nothing was changed."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não consegui ler as agendas do Robusta (%@). Nada foi alterado."
+          }
+        }
+      }
+    },
+    "Não consegui ler as automações (%@). As outras fontes seguem normais.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't read the automations (%@). The other sources still work."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não consegui ler as automações (%@). As outras fontes seguem normais."
+          }
+        }
+      }
+    },
+    "Não consegui ler as doses agendadas no Mac. Nada foi alterado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't read the shots scheduled on this Mac. Nothing was changed."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não consegui ler as doses agendadas no Mac. Nada foi alterado."
+          }
+        }
+      }
+    },
+    "Não consegui mudar o \"Abrir no login\" (%@). Confira em Ajustes do Sistema > Geral > Itens de Início.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't change \"Open at Login\" (%@). Check System Settings > General > Login Items."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não consegui mudar o \"Abrir no login\" (%@). Confira em Ajustes do Sistema > Geral > Itens de Início."
+          }
+        }
+      }
+    },
+    "Não consegui verificar agora.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't check right now."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não consegui verificar agora."
+          }
+        }
+      }
+    },
+    "Não deu certo: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That didn't work: %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não deu certo: %@"
+          }
+        }
+      }
+    },
+    "Não deu para ler os dias desta recorrência. Ela continua valendo, mas o Robusta não consegue gerenciá-la.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't read this schedule's days. It still works, but Robusta can't manage it."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não deu para ler os dias desta recorrência. Ela continua valendo, mas o Robusta não consegue gerenciá-la."
+          }
+        }
+      }
+    },
+    "O Claude não mostra o horário desta tarefa. Informe o horário para o Robusta saber se ela tem dose.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claude doesn't show this task's time. Set it so Robusta knows whether it has a shot."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Claude não mostra o horário desta tarefa. Informe o horário para o Robusta saber se ela tem dose."
+          }
+        }
+      }
+    },
+    "O Robusta agenda os próximos 14 dias e renova sozinho todo dia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta schedules the next 14 days and renews on its own every day."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Robusta agenda os próximos 14 dias e renova sozinho todo dia."
+          }
+        }
+      }
+    },
+    "O Robusta ainda não está autorizado. Use \"Autorizar…\" para criar e cancelar doses.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta isn't authorized yet. Use \"Authorize…\" to create and cancel shots."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Robusta ainda não está autorizado. Use \"Autorizar…\" para criar e cancelar doses."
+          }
+        }
+      }
+    },
+    "O Robusta garante só a 1ª execução do dia. As outras rodam se o Mac estiver em uso.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta only guarantees the first run of the day. The others run if the Mac is in use."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Robusta garante só a 1ª execução do dia. As outras rodam se o Mac estiver em uso."
+          }
+        }
+      }
+    },
+    "O Robusta vai:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta will:"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Robusta vai:"
+          }
+        }
+      }
+    },
+    "O calendário": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The calendar"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O calendário"
+          }
+        }
+      }
+    },
+    "O fim precisa ser depois do início, no mesmo dia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The end must be after the start, on the same day."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O fim precisa ser depois do início, no mesmo dia."
+          }
+        }
+      }
+    },
+    "O macOS guarda só uma recorrência nativa de doses.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS keeps only one native schedule for shots."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O macOS guarda só uma recorrência nativa de doses."
+          }
+        }
+      }
+    },
+    "O macOS guarda só uma recorrência nativa. Para as outras agendas, o Robusta agenda as doses dos próximos 14 dias e repõe a lista sozinho todo dia, mesmo com o app fechado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS keeps only one native schedule. For your other schedules, Robusta schedules the shots for the next 14 days and refills the list on its own every day, even with the app closed."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O macOS guarda só uma recorrência nativa. Para as outras agendas, o Robusta agenda as doses dos próximos 14 dias e repõe a lista sozinho todo dia, mesmo com o app fechado."
+          }
+        }
+      }
+    },
+    "O macOS guarda uma única recorrência nativa de doses. Ela vale mesmo com o Robusta fechado ou desinstalado. Use na agenda mais importante.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS keeps a single native schedule for shots. It works even with Robusta closed or uninstalled. Use it for your most important schedule."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O macOS guarda uma única recorrência nativa de doses. Ela vale mesmo com o Robusta fechado ou desinstalado. Use na agenda mais importante."
+          }
+        }
+      }
+    },
+    "O macOS não registra quem criou a recorrência nativa: pode ter sido você, pelo Terminal, ou outro app. Servir como Robusta passa a gerenciá-la pelo app, sem mudar nada no agendamento.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS doesn't record who created the native schedule: it may have been you, in Terminal, or another app. Brew as Robusta lets the app manage it without changing anything in the schedule."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O macOS não registra quem criou a recorrência nativa: pode ter sido você, pelo Terminal, ou outro app. Servir como Robusta passa a gerenciá-la pelo app, sem mudar nada no agendamento."
+          }
+        }
+      }
+    },
+    "O macOS pede a sua senha ou o Touch ID para autorizar e para remover.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS asks for your password or Touch ID to authorize and to remove."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O macOS pede a sua senha ou o Touch ID para autorizar e para remover."
+          }
+        }
+      }
+    },
+    "O macOS recusou a mudança (%@).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS refused the change (%@)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O macOS recusou a mudança (%@)."
+          }
+        }
+      }
+    },
+    "O que fazer com esta dose?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What should happen to this shot?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O que fazer com esta dose?"
+          }
+        }
+      }
+    },
+    "O que já existe no seu Mac": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's already on your Mac"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O que já existe no seu Mac"
+          }
+        }
+      }
+    },
+    "O que você vai autorizar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What you're about to authorize"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O que você vai autorizar"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Os dias da recorrência nativa atual não puderam ser lidos. Ela não foi alterada.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current native schedule's days couldn't be read. It wasn't changed."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os dias da recorrência nativa atual não puderam ser lidos. Ela não foi alterada."
+          }
+        }
+      }
+    },
+    "Os outros horários viram agendas do Robusta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other times become Robusta schedules."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os outros horários viram agendas do Robusta."
+          }
+        }
+      }
+    },
+    "Os scripts de autorização não foram encontrados no app.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The authorization scripts weren't found in the app."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os scripts de autorização não foram encontrados no app."
+          }
+        }
+      }
+    },
+    "Outra renovação está em andamento. Tente de novo em alguns segundos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Another renewal is running. Try again in a few seconds."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outra renovação está em andamento. Tente de novo em alguns segundos."
+          }
+        }
+      }
+    },
+    "Outros apps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other apps"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outros apps"
+          }
+        }
+      }
+    },
+    "Padrão do sistema": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System Default"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Padrão do sistema"
+          }
+        }
+      }
+    },
+    "Para a renovação diária, aprove o Robusta em Ajustes do Sistema > Geral > Itens de Início.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For the daily renewal, approve Robusta in System Settings > General > Login Items."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para a renovação diária, aprove o Robusta em Ajustes do Sistema > Geral > Itens de Início."
+          }
+        }
+      }
+    },
+    "Para criar e cancelar doses, o Robusta precisa da sua autorização de administrador (uma vez só).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To create and cancel shots, Robusta needs your administrator authorization (just once)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para criar e cancelar doses, o Robusta precisa da sua autorização de administrador (uma vez só)."
+          }
+        }
+      }
+    },
+    "Para remover a autorização do Robusta, digite a sua senha.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter your password to remove Robusta's authorization."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para remover a autorização do Robusta, digite a sua senha."
+          }
+        }
+      }
+    },
+    "Por evento": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On event"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por evento"
+          }
+        }
+      }
+    },
+    "Procurando…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checking…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Procurando…"
+          }
+        }
+      }
+    },
+    "Procurar atualizações": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for Updates"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Procurar atualizações"
+          }
+        }
+      }
+    },
+    "Pronto. Agora arraste o Robusta da pasta Aplicativos para o Lixo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done. Now drag Robusta from Applications to the Trash."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pronto. Agora arraste o Robusta da pasta Aplicativos para o Lixo."
+          }
+        }
+      }
+    },
+    "Protótipo (só na build de teste)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prototype (test build only)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protótipo (só na build de teste)"
+          }
+        }
+      }
+    },
+    "Próxima dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próxima dose"
+          }
+        }
+      }
+    },
+    "Próxima página": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next page"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próxima página"
+          }
+        }
+      }
+    },
+    "Próxima semana": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next week"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próxima semana"
+          }
+        }
+      }
+    },
+    "Próximas doses": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upcoming shots"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próximas doses"
+          }
+        }
+      }
+    },
+    "Próximo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próximo"
+          }
+        }
+      }
+    },
+    "Próximos %lld dias": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next %lld days"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próximos %lld dias"
+          }
+        }
+      }
+    },
+    "Pular": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pular"
+          }
+        }
+      }
+    },
+    "Página %lld de %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page %lld of %lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Página %lld de %lld"
+          }
+        }
+      }
+    },
+    "Página anterior": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous page"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Página anterior"
+          }
+        }
+      }
+    },
+    "Quando": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando"
+          }
+        }
+      }
+    },
+    "Quando chega um evento": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When an event arrives"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando chega um evento"
+          }
+        }
+      }
+    },
+    "Reabastecimento diário": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily refill"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reabastecimento diário"
+          }
+        }
+      }
+    },
+    "Recolher": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collapse"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recolher"
+          }
+        }
+      }
+    },
+    "Recorrentes (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recurring (%lld)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recorrentes (%lld)"
+          }
+        }
+      }
+    },
+    "Recorrência nativa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native schedule"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recorrência nativa"
+          }
+        }
+      }
+    },
+    "Recorrência nativa (%@ às %@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native schedule (%1$@ at %2$@)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recorrência nativa (%@ às %@)"
+          }
+        }
+      }
+    },
+    "Recorrência nativa alterada fora do Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native schedule changed outside Robusta"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recorrência nativa alterada fora do Robusta"
+          }
+        }
+      }
+    },
+    "Recorrência nativa: para mudar, use a agenda acima.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native schedule: to change it, use the schedule above."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recorrência nativa: para mudar, use a agenda acima."
+          }
+        }
+      }
+    },
+    "Recorrência: %@ às %@. Apagar a agenda cancela todas as doses dela.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repeats: %@ at %@. Deleting the schedule cancels all its shots."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recorrência: %@ às %@. Apagar a agenda cancela todas as doses dela."
+          }
+        }
+      }
+    },
+    "Remover": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover"
+          }
+        }
+      }
+    },
+    "Remover autorização…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove authorization…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover autorização…"
+          }
+        }
+      }
+    },
+    "Remover por completo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove completely"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover por completo"
+          }
+        }
+      }
+    },
+    "Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta"
+          }
+        }
+      }
+    },
+    "Robusta: bule cheio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: full pot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: bule cheio"
+          }
+        }
+      }
+    },
+    "Robusta: bule cheio, até %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: full pot until %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: bule cheio, até %@"
+          }
+        }
+      }
+    },
+    "Robusta: efeito da dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: caffeine"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: efeito da dose"
+          }
+        }
+      }
+    },
+    "Robusta: efeito da dose, até %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: caffeine until %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusta: efeito da dose, até %@"
+          }
+        }
+      }
+    },
+    "Roda nos servidores. Não depende do Mac estar acordado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runs on the servers. Doesn't need the Mac awake."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Roda nos servidores. Não depende do Mac estar acordado."
+          }
+        }
+      }
+    },
+    "Rotinas do Claude Code": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claude Code routines"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rotinas do Claude Code"
+          }
+        }
+      }
+    },
+    "Salvar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvar"
+          }
+        }
+      }
+    },
+    "Se o idioma do sistema não estiver listado, usa o padrão (inglês).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "If the system language isn't listed, the default (English) is used."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se o idioma do sistema não estiver listado, usa o padrão (inglês)."
+          }
+        }
+      }
+    },
+    "Sem a autorização, as doses que já estão agendadas não podem ser canceladas. Elas continuam acontecendo por até 14 dias.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Without authorization, shots already scheduled can't be canceled. They'll keep happening for up to 14 days."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem a autorização, as doses que já estão agendadas não podem ser canceladas. Elas continuam acontecendo por até 14 dias."
+          }
+        }
+      }
+    },
+    "Sem dose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem dose"
+          }
+        }
+      }
+    },
+    "Sem dose na hora. Roda atrasada na próxima dose (até %@).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No shot on time. It runs late at the next shot (up to %@)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem dose na hora. Roda atrasada na próxima dose (até %@)."
+          }
+        }
+      }
+    },
+    "Sem identificação": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidentified"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem identificação"
+          }
+        }
+      }
+    },
+    "Semana": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semana"
+          }
+        }
+      }
+    },
+    "Semana anterior": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous week"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semana anterior"
+          }
+        }
+      }
+    },
+    "Servir como Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brew as Robusta"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servir como Robusta"
+          }
+        }
+      }
+    },
+    "Sistema": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistema"
+          }
+        }
+      }
+    },
+    "Sistema/Apple": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System/Apple"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistema/Apple"
+          }
+        }
+      }
+    },
+    "Sobre o Robusta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About Robusta"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobre o Robusta"
+          }
+        }
+      }
+    },
+    "Somente leitura. O Robusta lê só nome e horário das automações, nunca o conteúdo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read only. Robusta reads only the name and time of automations, never their content."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Somente leitura. O Robusta lê só nome e horário das automações, nunca o conteúdo."
+          }
+        }
+      }
+    },
+    "Só acordar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wake only"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Só acordar"
+          }
+        }
+      }
+    },
+    "Só com o app na pasta Aplicativos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only with the app in the Applications folder"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Só com o app na pasta Aplicativos"
+          }
+        }
+      }
+    },
+    "Só criar e cancelar as doses do próprio Robusta e regravar a recorrência nativa.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only create and cancel Robusta's own shots and rewrite the native schedule."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Só criar e cancelar as doses do próprio Robusta e regravar a recorrência nativa."
+          }
+        }
+      }
+    },
+    "Só ligar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Power on only"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Só ligar"
+          }
+        }
+      }
+    },
+    "Só o agendador de energia do macOS (pmset), sem pedir a senha a cada dose.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only the macOS energy scheduler (pmset), without asking for your password on every shot."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Só o agendador de energia do macOS (pmset), sem pedir a senha a cada dose."
+          }
+        }
+      }
+    },
+    "Tarefas do ChatGPT": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ChatGPT tasks"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarefas do ChatGPT"
+          }
+        }
+      }
+    },
+    "Tentar de novo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tentar de novo"
+          }
+        }
+      }
+    },
+    "Tipo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipo"
+          }
+        }
+      }
+    },
+    "Tipo de agenda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schedule type"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipo de agenda"
+          }
+        }
+      }
+    },
+    "Tira do Mac as doses e a autorização do Robusta. Depois, é só apagar o app.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Removes Robusta's shots and authorization from your Mac. Then just delete the app."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tira do Mac as doses e a autorização do Robusta. Depois, é só apagar o app."
+          }
+        }
+      }
+    },
+    "Toda semana": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every week"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toda semana"
+          }
+        }
+      }
+    },
+    "Todo dia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every day"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo dia"
+          }
+        }
+      }
+    },
+    "Tudo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tudo"
+          }
+        }
+      }
+    },
+    "Uma dose no início e o Mac acordado até o fim, mesmo de tampa fechada. Para funcionar, o Mac precisa estar ligado na tomada.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One shot at the start and your Mac stays awake until the end, even with the lid closed. To work, your Mac must be plugged in."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uma dose no início e o Mac acordado até o fim, mesmo de tampa fechada. Para funcionar, o Mac precisa estar ligado na tomada."
+          }
+        }
+      }
+    },
+    "Uma recorrência nativa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One native schedule"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uma recorrência nativa"
+          }
+        }
+      }
+    },
+    "Usar bule cheio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use a full pot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar bule cheio"
+          }
+        }
+      }
+    },
+    "Use na agenda mais importante.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use it for your most important schedule."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use na agenda mais importante."
+          }
+        }
+      }
+    },
+    "Ver todas as versões": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See all versions"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver todas as versões"
+          }
+        }
+      }
+    },
+    "Versão": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versão"
+          }
+        }
+      }
+    },
+    "Versão %@ disponível": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version %@ available"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versão %@ disponível"
+          }
+        }
+      }
+    },
+    "Você já tem a versão mais recente.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have the latest version."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Você já tem a versão mais recente."
+          }
+        }
+      }
+    },
+    "Voltar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voltar"
+          }
+        }
+      }
+    },
+    "Vários horários": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Several times"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vários horários"
+          }
+        }
+      }
+    },
+    "a cada %lld min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "every %lld min"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a cada %lld min"
+          }
+        }
+      }
+    },
+    "amanhã": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tomorrow"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "amanhã"
+          }
+        }
+      }
+    },
+    "das %lldh às %lldh": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "from %lld:00 to %lld:00"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "das %lldh às %lldh"
+          }
+        }
+      }
+    },
+    "dose das %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "the %@ shot"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dose das %@"
+          }
+        }
+      }
+    },
+    "e": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "and"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e"
+          }
+        }
+      }
+    },
+    "evento externo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "external event"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "evento externo"
+          }
+        }
+      }
+    },
+    "hoje": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "today"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hoje"
+          }
+        }
+      }
+    },
+    "impede o repouso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "prevents sleep"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "impede o repouso"
+          }
+        }
+      }
+    },
+    "impede o repouso, inclusive o pedido": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "prevents sleep, even when requested"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "impede o repouso, inclusive o pedido"
+          }
+        }
+      }
+    },
+    "mantém a tela acesa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "keeps the display on"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mantém a tela acesa"
+          }
+        }
+      }
+    },
+    "sem detalhes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "no details"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sem detalhes"
+          }
+        }
+      }
+    },
+    "~%lld doses/dia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "~%lld shots/day"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "~%lld doses/dia"
+          }
+        }
+      }
+    },
+    "~1 dose/dia": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "~1 shot/day"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "~1 dose/dia"
+          }
+        }
+      }
+    },
+    "Únicas (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Single (%lld)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Únicas (%lld)"
+          }
+        }
+      }
+    },
+    "Único": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Single"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Único"
+          }
+        }
+      }
+    },
+    "às %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "at %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "às %@"
+          }
+        }
+      }
+    },
+    "•": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "•"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "•"
+          }
+        }
+      }
+    },
+    "• %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• %@"
+          }
+        }
+      }
+    },
+    "• Reloginho: nativo, a recorrência do macOS.\n• Verde: agenda do Robusta.\n• Verde com 1: único, acontece uma vez.\n• Cinza: sistema e outros apps (em \"Exibir todos\").": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Clock: native, the macOS schedule.\n• Green: a Robusta schedule.\n• Green with 1: single, happens once.\n• Gray: system and other apps (with \"Show all\")."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Reloginho: nativo, a recorrência do macOS.\n• Verde: agenda do Robusta.\n• Verde com 1: único, acontece uma vez.\n• Cinza: sistema e outros apps (em \"Exibir todos\")."
+          }
+        }
+      }
+    },
+    "• apagar as suas agendas e bules cheios;": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• delete your schedules and full pots;"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• apagar as suas agendas e bules cheios;"
+          }
+        }
+      }
+    },
+    "• cancelar as doses dele e apagar as suas agendas e bules cheios;": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• cancel its shots and delete your schedules and full pots;"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• cancelar as doses dele e apagar as suas agendas e bules cheios;"
+          }
+        }
+      }
+    },
+    "• desligar o reabastecimento diário e o \"Abrir no login\";": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• turn off the daily refill and \"Open at Login\";"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• desligar o reabastecimento diário e o \"Abrir no login\";"
+          }
+        }
+      }
+    },
+    "• remover a autorização (o macOS pede a sua senha).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• remove its authorization (macOS asks for your password)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• remover a autorização (o macOS pede a sua senha)."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,2 @@
+Repeating power events:
+  wakepoweron at 7:59AM weekdays only

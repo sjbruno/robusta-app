@@ -1,0 +1,7 @@
+Repeating power events:
+  wakepoweron at 7:59AM weekdays only
+Scheduled power events:
+ [0]  sleep at 11/27/2026 04:46:00 by 'robusta.teste'
+ [1]  wake at 11/27/2026 04:44:00 by 'robusta.teste'
+ [2]  wake at 11/27/2026 04:44:00 by 'robusta.teste'
+ [3]  wakeorpoweron at 11/27/2026 04:45:00 by 'robusta.teste'

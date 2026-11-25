@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Renovação diária como o usuário (SMAppService.agent; sem root). -->
+	<key>Label</key>
+	<string>io.github.sjbruno.robusta.renew</string>
+	<key>BundleProgram</key>
+	<string>Contents/MacOS/robusta-renew</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>robusta-renew</string>
+		<string>renew</string>
+	</array>
+	<key>AssociatedBundleIdentifiers</key>
+	<string>io.github.sjbruno.robusta</string>
+	<!-- No login e uma vez por dia; se o Mac estiver dormindo, roda ao acordar. -->
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>3</integer>
+		<key>Minute</key>
+		<integer>17</integer>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+</dict>
+</plist>

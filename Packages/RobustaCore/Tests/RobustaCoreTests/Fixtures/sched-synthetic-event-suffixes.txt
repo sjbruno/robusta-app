@@ -1,0 +1,5 @@
+Scheduled power events:
+ [0]  wake at 12/01/2026 08:59:00 by 'robusta.agenda'
+ [1]  wake at 12/01/2026 09:10:00 by 'com.apple.alarm.user-invisible-com.apple.acmd.alarm' leeway secs: 30
+ [2]  wakeorpoweron at 12/02/2026 07:00:00 by 'robusta' User visible: true
+ [3]  shutdown at 12/02/2026 23:30:00

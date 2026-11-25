@@ -1,0 +1,12 @@
+# Robusta: libera sem senha só o /usr/bin/pmset, só com os owners do app
+# (robusta, robusta.agenda) e só para ligar/despertar. Nunca cancelall nem
+# cancelamento por número. Gravado pelo "Autorizar…" do app. Não editar à mão.
+# Regex POSIX estendida: no sudoers, dentro da regex só o '#' precisa de escape
+# (barra invertida passa intacta: use [.] para ponto literal, não \\.).
+Cmnd_Alias ROBUSTA_PMSET = \
+    /usr/bin/pmset ^schedule (wake|poweron|wakeorpoweron) [0-9]{2}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} robusta([.]agenda)?$, \
+    /usr/bin/pmset ^schedule cancel (wake|poweron|wakeorpoweron) [0-9]{2}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} robusta([.]agenda)?$, \
+    /usr/bin/pmset ^repeat (wake|poweron|wakeorpoweron) [MTWRFSU]{1,7} [0-9]{2}:[0-9]{2}:00( (sleep|shutdown|restart) [MTWRFSU]{1,7} [0-9]{2}:[0-9]{2}:00)?$, \
+    /usr/bin/pmset ^repeat (sleep|shutdown|restart) [MTWRFSU]{1,7} [0-9]{2}:[0-9]{2}:00$, \
+    /usr/bin/pmset ^repeat cancel$
+__USER__ ALL = (root) NOPASSWD: ROBUSTA_PMSET

@@ -1,0 +1,3 @@
+Repeating power events:
+  poweron at 9:05PM Some days
+  shutdown at 11:59PM Monday

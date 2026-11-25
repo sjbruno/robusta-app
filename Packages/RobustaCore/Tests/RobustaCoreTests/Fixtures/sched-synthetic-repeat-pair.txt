@@ -1,0 +1,3 @@
+Repeating power events:
+  wakepoweron at 12:00PM every day
+  sleep at 0:30AM weekends only

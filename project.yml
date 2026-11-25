@@ -1,0 +1,81 @@
+name: Robusta
+options:
+  bundleIdPrefix: io.github.sjbruno
+  deploymentTarget:
+    macOS: "27.0"
+  createIntermediateGroups: true
+  # Inglês é o idioma de reserva: Mac em português abre em português; qualquer outro, em inglês.
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    # Textos da interface no catálogo App/Localizable.xcstrings (chaves em português).
+    SWIFT_EMIT_LOC_STRINGS: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    # Assinatura ad hoc (sem conta de desenvolvedor).
+    # Só Apple silicon.
+    ARCHS: arm64
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    DEVELOPMENT_TEAM: ""
+packages:
+  RobustaCore:
+    path: Packages/RobustaCore
+targets:
+  Robusta:
+    type: application
+    platform: macOS
+    sources:
+      - App
+      # Scripts do "Autorizar…" (sudoers), copiados como pasta em Resources/Install.
+      - path: Install
+        type: folder
+        buildPhase: resources
+      # Agente de renovação (SMAppService.agent) em Contents/Library/LaunchAgents.
+      - path: Support/LaunchAgents/io.github.sjbruno.robusta.renew.plist
+        buildPhase:
+          copyFiles:
+            destination: wrapper
+            subpath: Contents/Library/LaunchAgents
+    # O XcodeGen regenera App/Info.plist a cada `generate`.
+    # Chaves do plist ficam aqui, nunca editadas direto no arquivo.
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDevelopmentRegion: en
+        CFBundleDisplayName: Robusta
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
+        # App só de barra de menus, sem ícone no Dock.
+        LSUIElement: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.sjbruno.robusta
+        PRODUCT_NAME: Robusta
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - package: RobustaCore
+      # Embute o CLI em Robusta.app/Contents/MacOS/robusta-renew.
+      - target: robusta-renew
+        embed: true
+        copy:
+          destination: executables
+  robusta-renew:
+    type: tool
+    platform: macOS
+    sources: [Renewer]
+    settings:
+      base:
+        PRODUCT_NAME: robusta-renew
+    dependencies:
+      - package: RobustaCore
+schemes:
+  Robusta:
+    build:
+      targets:
+        Robusta: all
+        robusta-renew: all

@@ -1,0 +1,5 @@
+Repeating power events:
+  wakepoweron at 7:59AM weekdays only
+Scheduled power events:
+ [0]  wake at 11/24/2026 00:16:23 by 'com.apple.alarm.user-invisible-com.apple.acmd.alarm'
+ [1]  wake at 11/24/2026 01:50:18 by 'com.apple.alarm.user-invisible-com.apple.calaccessd.travelEngine.periodicRefreshTimer'
